@@ -1,0 +1,6 @@
+telescope_id,telescope_name,telescope_type,location,aperture_m,focal_ratio,detector
+TEL-01,Himalayan Chandra Optical Telescope,Optical,"Hanle, Ladakh, India",2.01,f/9,CCD 2048x2048
+TEL-02,Vainu Bappu Observatory Reflector,Optical,"Kavalur, Tamil Nadu, India",2.34,f/3.25,Prime Focus CCD
+TEL-03,Giant Metrewave Radio Telescope,Radio,"Pune, Maharashtra, India",45.0,Parabolic,L-Band Receiver
+TEL-04,AstroSat Space Observatory,Space,Low Earth Orbit (650 km),0.38,Cassegrain,UVIT / LAXPC
+TEL-05,Mount Abu Infra-Red Observatory,Optical,"Gurushikhar, Rajasthan, India",1.2,f/13,NICMOS Near-IR

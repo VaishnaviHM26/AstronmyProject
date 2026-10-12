@@ -1,0 +1,6 @@
+# Astronomy Telescope Cataloging - Dependencies
+# Python 3.10+ compatible (tested on Windows 11)
+
+pandas>=2.0.0
+matplotlib>=3.7.0
+numpy>=1.24.0

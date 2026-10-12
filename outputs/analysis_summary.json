@@ -1,0 +1,219 @@
+{
+  "project_name": "Astronomy Telescope Cataloging",
+  "transparency_notice": "DISCLAIMER & TRANSPARENCY NOTICE:\nThis software uses synthetic illustrative astronomical records for educational\ndata engineering, cataloging, and visualization demonstrations.\nCalibration algorithms represent simplified mathematical models and do NOT\nclaim physical sensor-level CCD pixel reduction or real sky telescope driving.",
+  "validation_metrics": {
+    "total_records": 1000,
+    "valid_records": 950,
+    "rejected_records": 50,
+    "good_count": 720,
+    "good_percentage": 72.0,
+    "acceptable_count": 230,
+    "acceptable_percentage": 23.0,
+    "rejected_count": 50,
+    "rejected_percentage": 5.0,
+    "rejection_breakdown": {
+      "Duplicate observation record (identical telescope, timestamp, and coordinates)": 10,
+      "Missing telescope identifier": 6,
+      "Non-positive exposure time (0.0 s): must be > 0 s": 4,
+      "Missing exposure time": 3,
+      "Non-positive exposure time (-30.0 s): must be > 0 s": 2,
+      "Missing or unparseable observation date": 2,
+      "Missing photometric filter designation": 2,
+      "Invalid Right Ascension (396.46\u00b0): must be in [0.0\u00b0, 360.0\u00b0)": 1,
+      "Invalid Declination (106.16\u00b0): must be in [-90.0\u00b0, 90.0\u00b0]": 1,
+      "Invalid Declination (98.99\u00b0): must be in [-90.0\u00b0, 90.0\u00b0]": 1,
+      "Invalid Declination (101.41\u00b0): must be in [-90.0\u00b0, 90.0\u00b0]": 1,
+      "Invalid Right Ascension (-11.98\u00b0): must be in [0.0\u00b0, 360.0\u00b0)": 1,
+      "Invalid Right Ascension (-31.65\u00b0): must be in [0.0\u00b0, 360.0\u00b0)": 1,
+      "Invalid Right Ascension (-36.36\u00b0): must be in [0.0\u00b0, 360.0\u00b0)": 1,
+      "Invalid Right Ascension (378.82\u00b0): must be in [0.0\u00b0, 360.0\u00b0)": 1,
+      "Invalid Right Ascension (-12.53\u00b0): must be in [0.0\u00b0, 360.0\u00b0)": 1,
+      "Invalid Right Ascension (-6.26\u00b0): must be in [0.0\u00b0, 360.0\u00b0)": 1,
+      "Non-positive exposure time (-1.5 s): must be > 0 s": 1,
+      "Missing or non-numeric brightness measurement; Signal-to-noise ratio too low (1.1 < 5.0)": 1,
+      "Out-of-range magnitude (-85.0): must be between -5.0 and 30.0; Signal-to-noise ratio too low (1.3 < 5.0)": 1,
+      "Missing or non-numeric brightness measurement; Signal-to-noise ratio too low (1.4 < 5.0)": 1,
+      "Out-of-range magnitude (999.0): must be between -5.0 and 30.0; Signal-to-noise ratio too low (0.5 < 5.0)": 1,
+      "Out-of-range magnitude (-85.0): must be between -5.0 and 30.0; Signal-to-noise ratio too low (0.8 < 5.0)": 1,
+      "Out-of-range magnitude (-85.0): must be between -5.0 and 30.0; Signal-to-noise ratio too low (0.9 < 5.0)": 1,
+      "Missing or non-numeric brightness measurement; Signal-to-noise ratio too low (0.7 < 5.0)": 1,
+      "Out-of-range magnitude (-85.0): must be between -5.0 and 30.0; Signal-to-noise ratio too low (1.6 < 5.0)": 1,
+      "Out-of-range magnitude (999.0): must be between -5.0 and 30.0; Signal-to-noise ratio too low (1.5 < 5.0)": 1,
+      "Out-of-range magnitude (-85.0): must be between -5.0 and 30.0; Signal-to-noise ratio too low (1.1 < 5.0)": 1
+    }
+  },
+  "scientific_analysis": {
+    "total_objects_cataloged": 2845,
+    "object_distribution": {
+      "Star": {
+        "count": 1720,
+        "percentage": 60.46,
+        "brightness_mean": 12.03,
+        "brightness_min": 5.51,
+        "brightness_max": 18.48,
+        "size_arcsec_mean": 2.0
+      },
+      "Galaxy": {
+        "count": 685,
+        "percentage": 24.08,
+        "brightness_mean": 16.76,
+        "brightness_min": 12.01,
+        "brightness_max": 21.8,
+        "size_arcsec_mean": 99.77
+      },
+      "Planet": {
+        "count": 120,
+        "percentage": 4.22,
+        "brightness_mean": 8.86,
+        "brightness_min": 3.59,
+        "brightness_max": 14.42,
+        "size_arcsec_mean": 26.66
+      },
+      "Other": {
+        "count": 320,
+        "percentage": 11.25,
+        "brightness_mean": 14.02,
+        "brightness_min": 9.01,
+        "brightness_max": 19.94,
+        "size_arcsec_mean": 49.22
+      }
+    },
+    "telescope_utilization": {
+      "TEL-04": {
+        "observation_count": 204,
+        "percentage": 21.47,
+        "mean_exposure_sec": 749.0,
+        "telescope_name": "AstroSat Space Observatory",
+        "telescope_type": "Space",
+        "aperture_m": 0.38
+      },
+      "TEL-01": {
+        "observation_count": 193,
+        "percentage": 20.32,
+        "mean_exposure_sec": 744.8,
+        "telescope_name": "Himalayan Chandra Optical Telescope",
+        "telescope_type": "Optical",
+        "aperture_m": 2.01
+      },
+      "TEL-02": {
+        "observation_count": 187,
+        "percentage": 19.68,
+        "mean_exposure_sec": 726.6,
+        "telescope_name": "Vainu Bappu Observatory Reflector",
+        "telescope_type": "Optical",
+        "aperture_m": 2.34
+      },
+      "TEL-03": {
+        "observation_count": 187,
+        "percentage": 19.68,
+        "mean_exposure_sec": 668.4,
+        "telescope_name": "Giant Metrewave Radio Telescope",
+        "telescope_type": "Radio",
+        "aperture_m": 45.0
+      },
+      "TEL-05": {
+        "observation_count": 179,
+        "percentage": 18.84,
+        "mean_exposure_sec": 785.5,
+        "telescope_name": "Mount Abu Infra-Red Observatory",
+        "telescope_type": "Optical",
+        "aperture_m": 1.2
+      }
+    },
+    "monthly_trends": {
+      "M1": {
+        "month_number": 1,
+        "month_name": "January",
+        "observations": 78
+      },
+      "M2": {
+        "month_number": 2,
+        "month_name": "February",
+        "observations": 91
+      },
+      "M3": {
+        "month_number": 3,
+        "month_name": "March",
+        "observations": 90
+      },
+      "M4": {
+        "month_number": 4,
+        "month_name": "April",
+        "observations": 64
+      },
+      "M5": {
+        "month_number": 5,
+        "month_name": "May",
+        "observations": 56
+      },
+      "M6": {
+        "month_number": 6,
+        "month_name": "June",
+        "observations": 59
+      },
+      "M7": {
+        "month_number": 7,
+        "month_name": "July",
+        "observations": 41
+      },
+      "M8": {
+        "month_number": 8,
+        "month_name": "August",
+        "observations": 58
+      },
+      "M9": {
+        "month_number": 9,
+        "month_name": "September",
+        "observations": 84
+      },
+      "M10": {
+        "month_number": 10,
+        "month_name": "October",
+        "observations": 92
+      },
+      "M11": {
+        "month_number": 11,
+        "month_name": "November",
+        "observations": 114
+      },
+      "M12": {
+        "month_number": 12,
+        "month_name": "December",
+        "observations": 123
+      }
+    },
+    "filter_distribution": {
+      "U": {
+        "count": 173,
+        "percentage": 18.21
+      },
+      "Clear": {
+        "count": 172,
+        "percentage": 18.11
+      },
+      "B": {
+        "count": 164,
+        "percentage": 17.26
+      },
+      "V": {
+        "count": 154,
+        "percentage": 16.21
+      },
+      "I": {
+        "count": 144,
+        "percentage": 15.16
+      },
+      "R": {
+        "count": 143,
+        "percentage": 15.05
+      }
+    },
+    "brightness_statistics": {
+      "mean": 14.17,
+      "median": 14.47,
+      "std": 3.67,
+      "min": 7.01,
+      "max": 21.48
+    }
+  }
+}

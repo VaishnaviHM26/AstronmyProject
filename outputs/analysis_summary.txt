@@ -1,0 +1,63 @@
+==============================================================================
+         ASTRONOMY TELESCOPE CATALOGING - SYSTEM PROCESSING REPORT
+==============================================================================
+DISCLAIMER & TRANSPARENCY NOTICE:
+This software uses synthetic illustrative astronomical records for educational
+data engineering, cataloging, and visualization demonstrations.
+Calibration algorithms represent simplified mathematical models and do NOT
+claim physical sensor-level CCD pixel reduction or real sky telescope driving.
+------------------------------------------------------------------------------
+
+1. OBSERVATION INGESTION & QUALITY CONTROL SUMMARY (Table 6.1 & Table 6.2)
+------------------------------------------------------------------------------
+  Total Ingested Records      : 1,000
+  Successfully Processed Valid: 950 (95.0%)
+  Rejected / Flagged Records  : 50 (5.0%)
+
+  Quality Breakdown:
+    - Good Quality            : 720 records (72.0%)
+    - Acceptable Quality      : 230 records (23.0%)
+    - Poor / Rejected         : 50 records (5.0%)
+
+2. ASTRONOMICAL OBJECT DISTRIBUTION (Table 6.3)
+------------------------------------------------------------------------------
+  Total Cataloged Objects     : 2,845
+
+    - Star        :  1,720 objects (60.46%) | Mean Mag: 12.03
+    - Galaxy      :    685 objects (24.08%) | Mean Mag: 16.76
+    - Planet      :    120 objects ( 4.22%) | Mean Mag: 8.86
+    - Other       :    320 objects (11.25%) | Mean Mag: 14.02
+
+3. TELESCOPE OBSERVATION USAGE
+------------------------------------------------------------------------------
+    - TEL-04   (AstroSat Space Observatory         ):  204 obs ( 21.5%) | Avg Exp: 749.0s
+    - TEL-01   (Himalayan Chandra Optical Telescope):  193 obs ( 20.3%) | Avg Exp: 744.8s
+    - TEL-02   (Vainu Bappu Observatory Reflector  ):  187 obs ( 19.7%) | Avg Exp: 726.6s
+    - TEL-03   (Giant Metrewave Radio Telescope    ):  187 obs ( 19.7%) | Avg Exp: 668.4s
+    - TEL-05   (Mount Abu Infra-Red Observatory    ):  179 obs ( 18.8%) | Avg Exp: 785.5s
+
+4. BRIGHTNESS (APPARENT MAGNITUDE) METRICS
+------------------------------------------------------------------------------
+  Mean Magnitude     : 14.17 mag
+  Median Magnitude   : 14.47 mag
+  Std Deviation      : 3.67 mag
+  Magnitude Range    : [7.01, 21.48] mag
+
+5. MONTHLY OBSERVING ACTIVITY (12 MONTHS)
+------------------------------------------------------------------------------
+    M1  (January  ):  78 obs | ###################
+    M2  (February ):  91 obs | ######################
+    M3  (March    ):  90 obs | ######################
+    M4  (April    ):  64 obs | ################
+    M5  (May      ):  56 obs | ##############
+    M6  (June     ):  59 obs | ##############
+    M7  (July     ):  41 obs | ##########
+    M8  (August   ):  58 obs | ##############
+    M9  (September):  84 obs | #####################
+    M10 (October  ):  92 obs | #######################
+    M11 (November ): 114 obs | ############################
+    M12 (December ): 123 obs | ##############################
+
+==============================================================================
+End of Astronomy Observation Pipeline Execution Report
+==============================================================================
